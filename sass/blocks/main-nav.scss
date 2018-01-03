@@ -153,17 +153,24 @@
 }
 
 .main-nav__search-actions-container {
-  display: none;
   position: absolute;
-  width: 500px;
+  width: 475px;
   height: 20px;
   bottom: -60px;
   right: -15px;
   padding: 10px;
-  background-color: #0088ff;
+  font-size: 0;
+  background-color: #ffffff;
+  z-index: 50;
+
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 
   &--active {
-    display: block;
+    display: flex;
   }
 }
 
@@ -183,7 +190,7 @@
   font-weight: 500;
   letter-spacing: 0.050em;
   color: #252525;
-  background-color: #ffffff;
+  background-color: #e8e8e8;
 
   &::placeholder {
     opacity: 1;
