@@ -1,0 +1,38 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: 1170px;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 1.666;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.075em;
+  color: #898989;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

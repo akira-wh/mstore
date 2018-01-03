@@ -1,0 +1,54 @@
+{
+  "name": "MSTORE",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clothing store",
+  "author": "Akira",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.x",
+    "autoprefixer": "7.1.x",
+    "browser-sync": "2.18.x",
+    "del": "3.0.x",
+    "gulp": "3.9.x",
+    "gulp-csso": "3.0.x",
+    "gulp-imagemin": "3.4.x",
+    "gulp-plumber": "1.1.x",
+    "gulp-postcss": "7.0.x",
+    "gulp-rename": "1.2.x",
+    "gulp-sass": "3.1.x",
+    "gulp-svgmin": "1.2.x",
+    "gulp-svgstore": "6.1.x",
+    "gulp-uglify": "3.0.x",
+    "gulp-webp": "2.3.x",
+    "run-sequence": "2.2.x",
+    "stylelint": "8.1.x",
+    "stylelint-config-htmlacademy": "0.1.x"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint 'sass/**/*.scss' --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "images": "gulp images",
+    "webp": "gulp webp",
+    "svgmin": "gulp svgmin",
+    "svgsprite": "gulp svgsprite",
+    "build": "gulp build",
+    "start": "npm run build && gulp server"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "8.9"
+  }
+}

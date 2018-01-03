@@ -1,0 +1,41 @@
+.button {
+  position: relative;
+  padding-right: 14px;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  color: #111111;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow-x: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -5px;
+    border: 5px solid transparent;
+    border-left: 5px solid #111111;
+  }
+
+  &:hover,
+  &:focus {
+    color: lighten(#111111, 10%);
+  }
+
+  &:hover::after,
+  &:focus::after {
+    border-left-color: lighten(#111111, 10%);
+  }
+
+  &:active {
+    color: lighten(#111111, 20%);
+  }
+
+  &:active::after {
+    border-left-color: lighten(#111111, 20%);
+  }
+}

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSTORE — WE MAKE IT EASY TO EXPERIENCE CREATIVITY</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <meta name="referrer" content="origin">
+    <meta name="format-detection" content="telephone=no">
+  </head>
+
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol viewBox="0 0 92 24.6">
+        <g id="logo-text">
+          <path d="M0 24V6h4v1.6c.3-.7 1-1.2 1.9-1.6.9-.4 1.8-.5 2.8-.5 1 0 1.9.2 2.7.6.9.3 1.6.9 2.1 1.6.1 0 .2.1.2.3.1.1.2.2.2.3.2-.3.3-.5.5-.6.6-.7 1.4-1.3 2.3-1.6s1.9-.6 2.9-.6c1.1 0 2.1.2 3 .5.9.3 1.7.9 2.4 1.7.7.8 1.2 1.8 1.5 2.9.2.9.3 2 .3 3.3V24h-4.4V14c0-.6 0-1.2-.1-1.7s-.3-1-.5-1.3c-.2-.4-.6-.7-1.1-1-.5-.2-1-.3-1.5-.3-1.3 0-2.3.5-3 1.5-.3.5-.5 1-.6 1.6-.1.6-.2 1.3-.2 2.1V24h-4.3V14c0-.6 0-1.2-.1-1.6-.1-.4-.3-.9-.6-1.3s-.7-.8-1.2-1-1-.4-1.6-.4c-1.5 0-2.5.6-3 1.9-.3.8-.5 2.1-.5 3.9V24H0z"/><path d="M39.5 11h-4.2c-.1-.4-.3-.8-.6-1-.3-.2-.7-.3-1.1-.3-.5 0-.9.1-1.2.4-.3.3-.5.6-.5 1.1 0 .5.3.9.9 1.2.3.1.8.3 1.6.5 2.4.7 3.9 1.5 4.6 2.3s1 1.9 1 3.1c0 1.8-.6 3.2-1.8 4.3-1.3 1.2-2.9 1.9-4.7 1.9-1.8 0-3.4-.6-4.6-1.7-1.2-1.2-1.9-2.7-1.9-4.5h4.4c.1.6.3 1.1.7 1.5s.9.6 1.5.6c.5 0 1-.1 1.4-.4.4-.3.6-.7.6-1.3 0-.6-.4-1.1-1.1-1.5-.3-.2-1-.4-1.9-.8-.8-.2-1.4-.4-1.7-.6-.5-.2-1-.5-1.5-1-1.2-1-1.8-2.2-1.8-3.7 0-1.6.6-2.9 1.8-3.9 1.2-1 2.6-1.5 4.3-1.5 1.5 0 2.9.5 4 1.6s1.8 2.2 1.8 3.7z"/><path d="M40.7 24V9.9h-2.1V6h2.1V0h4.4v6h2.6v3.8h-2.6V24h-4.4z"/><path d="M56.1 5.5c2.6 0 4.8.9 6.7 2.8s2.8 4.1 2.8 6.8-.9 4.9-2.8 6.7c-1.9 1.8-4.1 2.8-6.8 2.8-2.6 0-4.8-.9-6.7-2.8-1.9-1.9-2.8-4.1-2.8-6.7 0-2.7.9-4.9 2.8-6.8s4.1-2.8 6.8-2.8zm-.2 4.2c-.7 0-1.3.1-2 .4-.7.3-1.2.7-1.7 1.2s-.9 1.1-1.1 1.7c-.2.6-.4 1.3-.4 2 0 1.5.5 2.7 1.5 3.7s2.2 1.6 3.7 1.6 2.8-.5 3.8-1.5 1.5-2.3 1.5-3.8-.5-2.8-1.5-3.8c-1.1-1-2.3-1.5-3.8-1.5z"/><path d="M65.5 24V6h4v1.6c.5-.8 1-1.3 1.7-1.6s1.4-.5 2.2-.5h.3v4.1c-1 0-1.8.3-2.6.8-.5.4-.8.9-1 1.4-.2.5-.3 1.1-.3 1.8V24h-4.3z"/><path d="M91 17H77.1c.3 1 .9 1.8 1.8 2.5.9.6 1.8.9 2.9.9.8 0 1.6-.1 2.3-.4.7-.3 1.3-.6 1.7-1.1h4.8c-.6 1.6-1.7 3-3.3 4.1-1.7 1.1-3.4 1.7-5.3 1.7-2.6 0-4.8-.9-6.7-2.7s-2.8-4.1-2.8-6.7c0-2.7.9-4.9 2.8-6.8s4.1-2.8 6.8-2.8c2.5 0 4.7.9 6.5 2.8s2.7 4 2.7 6.6c0 .3 0 .7-.1 1-.1.2-.1.5-.2.9zm-14-3.9h9.9c-.4-1-1-1.9-1.9-2.5-.9-.6-1.9-.9-3-.9s-2.1.3-3.1.9c-.9.7-1.5 1.5-1.9 2.5z"/>
+        </g>
+        <circle id="logo-circle" fill="#00c8c8" cx="88.5" cy="21.1" r="3.5"/>
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 14.8 14.8">
+        <path d="M10.2 6.2c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4 4 1.8 4 4zm4.6 7.5c0-.3-.1-.6-.3-.8l-3.1-3.1c2-2.9 1.2-6.7-1.6-8.7C6.9-.9 3-.1 1.1 2.7c-2 2.9-1.2 6.7 1.6 8.7 2.1 1.5 5 1.5 7.1 0l3.1 3.1c.2.2.5.3.8.3.6 0 1.1-.5 1.1-1.1z"/>
+      </symbol>
+      <symbol id="icon-profile" viewBox="0 0 16 16">
+        <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm5.5 12.1c-.3-1.6-1.1-2.9-2.7-2.9-.8.7-1.8 1.1-2.8 1.1-1 0-2.1-.4-2.8-1.1-1.6 0-2.4 1.3-2.7 2.9C.2 9 .9 4.7 3.9 2.5 7 .3 11.2.9 13.5 4c1.8 2.4 1.8 5.6 0 8.1zm-2.1-5.8c0 1.9-1.5 3.4-3.4 3.4S4.6 8.2 4.6 6.3 6.1 2.9 8 2.9s3.4 1.5 3.4 3.4z"/>
+      </symbol>
+      <symbol id="icon-wishlist" viewBox="0 0 16 13.7">
+        <path d="M14.9 4.2c-.2 1.2-.8 2.3-1.7 3.2l-5.2 5-5.2-5c-.9-.9-1.5-2-1.7-3.2 0-2.5 1.7-3 3.1-3 1.3 0 2.8 1.4 3.3 2 .2.2.6.3.8 0 .5-.6 2-2 3.3-2 1.6-.1 3.3.5 3.3 3zm1.1 0C16 1.6 14.4 0 11.7 0 10.3.2 9 .9 8 1.9 7 .9 5.7.2 4.3 0 1.6 0 0 1.6 0 4.2c.2 1.5.9 3 2 4l5.6 5.4c.2.2.6.2.8 0L14 8.2c0-.1 2-1.9 2-4z"/>
+      </symbol>
+      <symbol id="icon-cart" viewBox="0 0 18.3 16">
+        <path d="M17.1 6.8h-16C.5 6.8 0 7.4 0 8s.5 1.1 1.1 1.1h.1l1 5.9c.2.6.7 1 1.2 1h11.4c.6 0 1-.4 1.1-.9l1-5.9h.1c.6 0 1.1-.5 1.1-1.1.2-.7-.3-1.3-1-1.3zM4.3 14c-.3 0-.6-.2-.6-.5l-.3-3.7c0-.3.2-.6.5-.6s.6.2.6.5l.3 3.7c.1.3-.2.6-.5.6zm3.7-.6c0 .3-.3.6-.6.6s-.6-.3-.6-.6V9.7c0-.3.3-.6.6-.6s.6.3.6.6v3.7zm3.4 0c0 .3-.3.6-.6.6s-.6-.3-.6-.6V9.7c0-.3.3-.6.6-.6s.6.3.6.6v3.7zm3.2.1c0 .3-.3.5-.6.5s-.5-.3-.5-.6l.3-3.7c0-.3.3-.6.6-.5.3 0 .5.3.5.6l-.3 3.7zM4.3 2.6c.1-.5.6-.9 1.1-.9h1.5c0 .3.3.6.6.6h3.4c.3 0 .6-.3.6-.6H13c.5 0 1 .4 1.1.9l.8 3.7H16l-.9-3.9c-.2-1-1.2-1.8-2.2-1.8h-1.5c0-.3-.3-.6-.6-.6H7.4c-.3 0-.5.3-.5.6H5.4c-1.1 0-2 .7-2.2 1.8l-1 3.9h1.2l.9-3.7z"/>
+      </symbol>
+      <symbol id="icon-zoom" viewBox="0 0 16.7 16.7">
+        <path fill="#31353D" d="M10.2 6.5c-.1-.1-.1-.1-.2-.1H7.7V4.2c0-.1 0-.2-.1-.2 0-.1-.1-.1-.2-.1h-.6c-.1 0-.2 0-.2.1-.1 0-.2.1-.2.2v2.3H4.2c-.1-.1-.2 0-.2 0-.1.1-.1.2-.1.3v.6c0 .1 0 .2.1.2 0 .1.1.1.2.1h2.2V10c0 .1 0 .2.1.2.1.1.1.1.2.1h.6c.1 0 .2 0 .2-.1.2-.1.2-.2.2-.2V7.7H10c.1 0 .2 0 .2-.1.1-.1.1-.1.1-.2v-.6c0-.1 0-.2-.1-.3zm-3.1 5.1c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5c0 1.2-.5 2.3-1.3 3.2-.9.8-2 1.3-3.2 1.3zm9.2 2.9l-3.4-3.4c.8-1.2 1.3-2.6 1.2-4 0-.9-.2-1.9-.6-2.8-.4-.8-.9-1.6-1.5-2.3-.7-.6-1.4-1.2-2.3-1.5C7.9-.2 6-.2 4.2.5c-.7.4-1.5.9-2.1 1.6C1.4 2.7.9 3.5.6 4.3-.1 6.1-.1 8 .6 9.8c.4.8.9 1.6 1.5 2.3.6.6 1.4 1.2 2.3 1.5.9.4 1.8.6 2.7.6 1.4 0 2.8-.4 4-1.3l3.4 3.4c.5.5 1.3.5 1.8 0 .2-.2.4-.6.4-.9 0-.3-.1-.6-.4-.9z"/>
+      </symbol>
+    </svg>
+
+    <header class="page-header">
+      <nav class="page-header__additional-nav  additional-nav">
+        <div class="additional-nav__wrapper">
+          <p class="visually-hidden">Contact us:</p>
+          <ul class="additional-nav__contacts-list">
+            <li class="additional-nav__contacts-item">
+              <a class="additional-nav__contacts-item-link" href="tel:+84898058000">(+84).898.058.000</a>
+            </li>
+            <li class="additional-nav__contacts-item">
+              <a class="additional-nav__contacts-item-link" href="mailto:min101092@gmail.com">min101092@gmail.com</a>
+            </li>
+          </ul>
+          <p class="visually-hidden">Site settings:</p>
+          <ul class="additional-nav__settings-list">
+            <li class="additional-nav__settings-item">
+              <span class="additional-nav__settings-item-title">Language:</span>
+              <span class="additional-nav__settings-item-current-value" tabindex="0">ENG</span>
+              <ul class="additional-nav__languages-list">
+                <li class="additional-nav__languages-item">
+                  <a class="additional-nav__languages-item-link" href="#!">ENG</a>
+                </li>
+                <li class="additional-nav__languages-item">
+                  <a class="additional-nav__languages-item-link" href="#!">GER</a>
+                </li>
+                <li class="additional-nav__languages-item">
+                  <a class="additional-nav__languages-item-link" href="#!">RU</a>
+                </li>
+              </ul>
+              <form class="additional-nav__languages-form  visually-hidden" action="#" method="post">
+                <select class="additional-nav__languages-select" name="language" id="language" tabindex="-1">
+                  <option value="ENG" selected>ENG</option>
+                  <option value="GER">GER</option>
+                  <option value="RU">RU</option>
+                </select>
+              </form>
+            </li>
+            <li class="additional-nav__settings-item">
+              <span class="additional-nav__settings-item-title">Currency:</span>
+              <span class="additional-nav__settings-item-current-value" tabindex="0">USD</span>
+              <ul class="additional-nav__currencies-list">
+                <li class="additional-nav__currencies-item">
+                  <a class="additional-nav__currencies-item-link" href="#!">USD</a>
+                </li>
+                <li class="additional-nav__currencies-item">
+                  <a class="additional-nav__currencies-item-link" href="#!">EUR</a>
+                </li>
+                <li class="additional-nav__currencies-item">
+                  <a class="additional-nav__currencies-item-link" href="#!">RUB</a>
+                </li>
+              </ul>
+              <form class="additional-nav__currencies-form  visually-hidden" action="#" method="post">
+                <select class="additional-nav__currencies-select" name="currencies" id="currencies" tabindex="-1">
+                  <option value="USD" selected>USD</option>
+                  <option value="EUR">EUR</option>
+                  <option value="RUB">RUB</option>
+                </select>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-header__bottom-row-wrapper">
+        <a class="page-header__logo-link">
+          <span class="visually-hidden">MSTORE logo</span>
+          <svg class="page-header__logo-icon" width="92" height="24.6">
+            <use class="page-header__logo-core" xlink:href="#logo-text"></use>
+            <use xlink:href="#logo-circle"></use>
+          </svg>
+        </a>
+        <nav class="page-header__main-nav  main-nav">
+          <p class="visually-hidden">Pages list:</p>
+          <ul class="main-nav__pages-list">
+            <li class="main-nav__pages-item">
+              <a class="main-nav__pages-item-link" href="#!">Home</a>
+            </li>
+            <li class="main-nav__pages-item">
+              <a class="main-nav__pages-item-link" href="#!">Men</a>
+            </li>
+            <li class="main-nav__pages-item">
+              <a class="main-nav__pages-item-link" href="#!">Women</a>
+            </li>
+            <li class="main-nav__pages-item">
+              <a class="main-nav__pages-item-link" href="#!">Accessories</a>
+            </li>
+            <li class="main-nav__pages-item">
+              <a class="main-nav__pages-item-link" href="#!">Lookbook</a>
+            </li>
+            <li class="main-nav__pages-item">
+              <a class="main-nav__pages-item-link" href="#!">Contact</a>
+            </li>
+          </ul>
+          <p class="visually-hidden">User controls:</p>
+          <ul class="main-nav__user-controls-list">
+            <li class="main-nav__user-controls-item">
+              <form class="main-nav__search-form" action="#" method="post">
+                <a class="main-nav__user-controls-link  main-nav__user-controls-link--search" href="#!">
+                  <span class="visually-hidden">Search</span>
+                  <svg class="main-nav__user-controls-icon" width="14" height="14">
+                    <use class="main-nav__user-controls-icon-core" xlink:href="#icon-search"></use>
+                  </svg>
+                </a>
+                <div class="main-nav__search-actions-container">
+                  <input class="main-nav__search-input" type="search" name="search" placeholder="what are you looking for?">
+                  <button class="main-nav__search-submit-button" type="submit">Search</button>
+                  <button class="main-nav__search-close-button" type="button">Close</button>
+                </div>
+              </form>
+            </li>
+            <li class="main-nav__user-controls-item">
+              <a class="main-nav__user-controls-link  main-nav__user-controls-link--profile" href="#!">
+                <span class="visually-hidden">Profile</span>
+                <svg class="main-nav__user-controls-icon" width="16" height="16">
+                  <use class="main-nav__user-controls-icon-core" xlink:href="#icon-profile"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="main-nav__user-controls-item">
+              <a class="main-nav__user-controls-link  main-nav__user-controls-link--wishlist" href="#!">
+                <span class="visually-hidden">Wishlist</span>
+                <svg class="main-nav__user-controls-icon" width="16" height="13">
+                  <use class="main-nav__user-controls-icon-core" xlink:href="#icon-wishlist"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="main-nav__user-controls-item">
+              <a class="main-nav__user-controls-link  main-nav__user-controls-link--cart" href="#!">
+                <span class="visually-hidden">Items in the cart</span>
+                <span class="main-nav__user-controls-cart-items">0</span>
+                <svg class="main-nav__user-controls-icon" width="18" height="16">
+                  <use class="main-nav__user-controls-icon-core" xlink:href="#icon-cart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="main-nav__user-controls-item">
+              <a class="main-nav__user-controls-link  main-nav__user-controls-link--amount" href="#!">
+                <span class="visually-hidden">Amount on the account:</span>
+                $0.00
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="intro">
+        <div class="intro__info">
+          <h1 class="intro__title">We make it easy to experience creativity</h1>
+          <h2 class="intro__subtitle">Stylish new design.</h2>
+          <p class="intro__description">
+            Order online and have your products delivered to your closest store for free...
+          </p>
+          <a class="intro__button  button" href="#!">Shopping now</a>
+        </div>
+        <picture class="intro__cover-set">
+          <source type="image/webp" srcset="img/intro-cover.webp">
+          <img class="intro-cover" src="img/intro-cover.jpg" alt="Stylish design photo">
+        </picture>
+      </section>
+
+      <section class="features">
+        <h2 class="visually-hidden">MSTORE features</h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item-title">Free shipping</h3>
+            <p class="features__item-description">Free shipping for all US order</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Support 24/7</h3>
+            <p class="features__item-description">We support 24 hours a day</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">30 day return</h3>
+            <p class="features__item-description">You have 30 days to return</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Payment 100% secured</h3>
+            <p class="features__item-description">Payment 100% secured</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="offers">
+        <h2 class="visually-hidden">You'll like it</h2>
+        <div class="offers__item  offers__item--align-right">
+          <p class="offers__type">New arrivals</p>
+          <h3 class="offers__title">Shirt for boy's</h3>
+          <p class="offers__price">$99.00</p>
+          <p class="offers__description">
+            Refresh your wardrobe with a piece from our gorgeous
+            ready-to-wear collection, featuring beautifully crafted
+            coats, dresses, jackets, sweaters, skirts, tops and trousers.
+            Whether you're searching for a special occasion...
+          </p>
+          <a class="offers__button  button" href="#!">Shopping now</a>
+        </div>
+        <div class="offers__item  offers__item--align-left">
+          <p class="offers__type">New arrivals</p>
+          <h3 class="offers__title">Shirt for girl's</h3>
+          <p class="offers__price">$99.00</p>
+          <p class="offers__description">
+            Refresh your wardrobe with a piece from our gorgeous
+            ready-to-wear collection, featuring beautifully crafted
+            coats, dresses, jackets, sweaters, skirts, tops and trousers.
+            Whether you're searching for a special occasion...
+          </p>
+          <a class="offers__button  button" href="#!">Shopping now</a>
+        </div>
+        <div class="offers__item  offers__item--fullwidth">
+          <p class="offers__type">New item's</p>
+          <h3 class="offers__title">Shoes collection</h3>
+          <p class="offers__description">
+            We are delighted to reveal our campaign for the Autumn/Winter 2017
+            collection, styled by fashion icon Caroline Issa and shot by
+            esteemed photographer www.minsoi.con...
+          </p>
+          <a class="offers__button  button" href="#!">Shopping now</a>
+        </div>
+      </section>
+
+      <section class="featured-products">
+        <header class="featured-products__header">
+          <h2 class="featured-products__title">Featured Products</h2>
+          <a class="featured-products__link" href="#!">All products</a>
+        </header>
+        <div class="featured-products__container">
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-01.jpg" alt="Abominable Hoodie">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Abominable Hoodie</h3>
+              <p class="product__info-price">$40.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-02.jpg" alt="Hollister Backyard Sweatshirt">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Hollister Backyard Sweatshirt</h3>
+              <p class="product__info-price">$29.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-03.jpg" alt="Oslo Trek Hoodie">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Oslo Trek Hoodie</h3>
+              <p class="product__info-price">$29.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-04.jpg" alt="Mach Street Sweatshirt">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Mach Street Sweatshirt</h3>
+              <p class="product__info-price">$40.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-05.jpg" alt="Backyard Sweat Shirt">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Backyard Sweat Shirt</h3>
+              <p class="product__info-price">$40.00 <span class="product__info-old-price">$60.00</span></p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-06.jpg" alt="Faded Short Sleeves">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Faded Short Sleeves</h3>
+              <p class="product__info-price">$110.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-07.jpg" alt="Oslo Trek Hoodie">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Oslo Trek Hoodie</h3>
+              <p class="product__info-price">$80.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-08.jpg" alt="Leather Sneakers">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Leather Sneakers</h3>
+              <p class="product__info-price">$80.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="shoes-banner">
+        <div class="shoes-banner__row  shoes-banner__row--gradient">
+          <div class="shoes-banner__info">
+            <p class="shoes-banner__type">
+              Sport shoes collection
+            </p>
+            <h2 class="shoes-banner__title">
+              <span class="shoes-banner__title-part  shoes-banner__title-part--background">
+                Entire shoes purchase
+              </span>
+              <span class="shoes-banner__title-part  shoes-banner__title-part--big  shoes-banner__title-part--big">
+                save up to $70
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div class="shoes-banner__row">
+          <a class="shoes-banner__link" href="#!">
+            Click here to see all the shoes collection...
+          </a>
+        </div>
+      </aside>
+
+      <section class="about">
+        <div class="about__info">
+          <h2 class="about__title">We love MSTORE</h2>
+          <p class="about__description">
+            A professional looking tote for your everyday needs!
+            This Wilsons Leather tote has a canvas look with genuine
+            leather trim and structure silhouette. Its shiny gold-tone
+            hardware and two-tone design give it extra fashionable flair.
+          </p>
+          <a class="about-button  button" href="#!">Discover</a>
+        </div>
+      </section>
+
+      <section class="bestsellers">
+        <header class="bestsellers__header">
+          <h2 class="bestsellers__title">Best Sellers Products</h2>
+          <a class="bestsellers__link" href="#!">All products</a>
+        </header>
+        <div class="bestsellers__container">
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-08.jpg" alt="Leather Sneakers">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Leather Sneakers</h3>
+              <p class="product__info-price">$80.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-02.jpg" alt="Hollister Backyard Sweatshirt">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Hollister Backyard Sweatshirt</h3>
+              <p class="product__info-price">$29.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product__cover">
+              <img class="product__cover-image" src="img/product-03.jpg" alt="Oslo Trek Hoodie">
+              <div class="product__popup">
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to cart</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--cart" width="20" height="18">
+                    <use class="product__popup-icon-core" xlink:href="#icon-cart"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Add to wishlist</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="18" height="15">
+                    <use class="product__popup-icon-core" xlink:href="#icon-wishlist"></use>
+                  </svg>
+                </a>
+                <a class="product__popup-link" href="#!">
+                  <span class="visually-hidden">Zoom</span>
+                  <svg class="product__popup-icon  featured-product__popup-icon--wishlist" width="16" height="16">
+                    <use class="product__popup-icon-core" xlink:href="#icon-zoom"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product__info">
+              <h3 class="product__info-title">Oslo Trek Hoodie</h3>
+              <p class="product__info-price">$29.00</p>
+              <div class="product__info-rating"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <aside class="sale-banner">
+        <img class="sale-banner-image" src="img/sale-banner.jpg" alt="Summer Sale Cover">
+      </aside>
+
+
+    </main>
+  </body>
+</html>
