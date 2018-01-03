@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  min-width: 1170px;
+  min-width: 1200px;
   padding: 0;
   margin: 0;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
@@ -15,11 +15,6 @@ body {
   letter-spacing: 0.075em;
   color: #898989;
   background-color: #ffffff;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .visually-hidden:not(:focus):not(:active),
