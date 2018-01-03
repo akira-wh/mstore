@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,8 +49,8 @@
           <p class="visually-hidden">Site settings:</p>
           <ul class="additional-nav__settings-list">
             <li class="additional-nav__settings-item">
-              <span class="additional-nav__settings-item-title">Language:</span>
-              <span class="additional-nav__settings-item-current-value" tabindex="0">ENG</span>
+              <span class="additional-nav__settings-item-label">Language:</span>
+              <span class="additional-nav__settings-item-dashboard  additional-nav__settings-item-dashboard--language" tabindex="0">ENG</span>
               <ul class="additional-nav__languages-list">
                 <li class="additional-nav__languages-item">
                   <a class="additional-nav__languages-item-link" href="#!">ENG</a>
@@ -71,8 +71,8 @@
               </form>
             </li>
             <li class="additional-nav__settings-item">
-              <span class="additional-nav__settings-item-title">Currency:</span>
-              <span class="additional-nav__settings-item-current-value" tabindex="0">USD</span>
+              <span class="additional-nav__settings-item-label">Currency:</span>
+              <span class="additional-nav__settings-item-dashboard  additional-nav__settings-item-dashboard--currency" tabindex="0">USD</span>
               <ul class="additional-nav__currencies-list">
                 <li class="additional-nav__currencies-item">
                   <a class="additional-nav__currencies-item-link" href="#!">USD</a>
@@ -136,7 +136,7 @@
                     <use class="main-nav__user-controls-icon-core" xlink:href="#icon-search"></use>
                   </svg>
                 </a>
-                <div class="main-nav__search-actions-container">
+                <div class="main-nav__search-modal">
                   <input class="main-nav__search-input" type="search" name="search" placeholder="what are you looking for?">
                   <button class="main-nav__search-submit-button" type="submit">Search</button>
                   <button class="main-nav__search-close-button" type="button">Close</button>
@@ -162,7 +162,7 @@
             <li class="main-nav__user-controls-item">
               <a class="main-nav__user-controls-link  main-nav__user-controls-link--cart" href="#!">
                 <span class="visually-hidden">Items in the cart</span>
-                <span class="main-nav__user-controls-cart-items">0</span>
+                <span class="main-nav__user-controls-cart-dashboard">0</span>
                 <svg class="main-nav__user-controls-icon" width="18" height="16">
                   <use class="main-nav__user-controls-icon-core" xlink:href="#icon-cart"></use>
                 </svg>
@@ -191,26 +191,26 @@
         </div>
         <picture class="intro__cover-set">
           <source type="image/webp" srcset="img/intro-cover.webp">
-          <img class="intro__cover" src="img/intro-cover.jpg" alt="Stylish design photo">
+          <img class="intro__cover" src="img/intro-cover.jpg" alt="Special offer illustration">
         </picture>
       </section>
 
       <section class="features">
         <h2 class="visually-hidden">MSTORE features</h2>
         <ul class="features__list">
-          <li class="features__item">
+          <li class="features__item  features__item--shipping">
             <h3 class="features__item-title">Free shipping</h3>
             <p class="features__item-description">Free shipping for all US order</p>
           </li>
-          <li class="features__item">
+          <li class="features__item  features__item--support">
             <h3 class="features__item-title">Support 24/7</h3>
             <p class="features__item-description">We support 24 hours a day</p>
           </li>
-          <li class="features__item">
+          <li class="features__item  features__item--return">
             <h3 class="features__item-title">30 day return</h3>
             <p class="features__item-description">You have 30 days to return</p>
           </li>
-          <li class="features__item">
+          <li class="features__item  features__item--secure">
             <h3 class="features__item-title">Payment 100% secured</h3>
             <p class="features__item-description">Payment 100% secured</p>
           </li>
