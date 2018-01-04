@@ -1,0 +1,95 @@
+.sale-banner {
+  width: 270px;
+  height: 506px;
+}
+
+.sale-banner__link {
+  display: block;
+  width: 185px;
+  height: 460px;
+  padding-top: 23px;
+  padding-right: 39px;
+  padding-bottom: 23px;
+  padding-left: 46px;
+  position: relative;
+  text-decoration: none;
+
+  &:hover .sale-banner__cover,
+  &:focus .sale-banner__cover {
+    transform: scale(1.030);
+  }
+}
+
+.sale-banner__title {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.sale-banner__title-intro {
+  display: block;
+  margin-bottom: -5px;
+  font-family: "Big Noodle Titling", "Verdana", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #00c8c8;
+}
+
+.sale-banner__title-emphasis {
+  display: block;
+  font-family: "Big Noodle Titling", "Verdana", "Arial", sans-serif;
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-align: right;
+  color: #00c8c8;
+}
+
+.sale-banner__pseudo-link {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 78px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #252525;
+}
+
+.sale-banner__cover-set {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale-banner__cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  flex-basis: auto;
+}
