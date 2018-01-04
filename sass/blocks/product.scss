@@ -160,40 +160,44 @@
 }
 
 .product__info-rating-background {
-  width: 55px;
-  height: 11px;
+  width: 63px;
+  height: 12px;
   margin-top: 2px;
   margin-right: 2px;
-  background-image: url("../img/icon-star-blank.svg");
-  background-repeat: repeat-x;
-  background-size: auto 100%;
+  background-image: url("../img/icon-stars-bg.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
   flex-basis: auto;
 }
 
 .product__info-rating {
-  width: 0;
-  height: 11px;
-  background-image: url("../img/icon-star-gold.svg");
-  background-repeat: repeat-x;
-  background-size: auto 100%;
+  width: 63px;
+  height: 12px;
+  background-image: url("../img/icon-stars.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
 
   &--5-star {
-    width: 55px;
+    background-position-x: 0px;
   }
 
   &--4-star {
-    width: 44px;
+    background-position-x: -13px;
   }
 
   &--3-star {
-    width: 33px;
+    background-position-x: -26px;
   }
 
   &--2-star {
-    width: 22px;
+    background-position-x: -39px;
   }
 
   &--1-star {
-    width: 11px;
+    background-position-x: -52px;
+  }
+
+  &--0-star {
+    background: none;
   }
 }
