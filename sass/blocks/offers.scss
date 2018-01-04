@@ -45,6 +45,10 @@
     padding-left: 25px;
   }
 
+  &:nth-of-type(odd):not(.offers__item--fullwidth) {
+    margin-right: auto;
+  }
+
   &:last-of-type {
     margin-bottom: 0;
   }
