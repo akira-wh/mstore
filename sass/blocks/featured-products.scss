@@ -20,6 +20,7 @@
 }
 
 .featured-products__title {
+  max-width: 60%;
   padding: 0;
   margin: 0;
   position: relative;
@@ -43,6 +44,7 @@
 }
 
 .featured-products__link {
+  max-width: 30%;
   margin-top: 10px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 10px;

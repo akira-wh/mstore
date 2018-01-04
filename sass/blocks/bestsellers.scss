@@ -29,6 +29,7 @@
 }
 
 .bestsellers__title {
+  max-width: 60%;
   padding: 0;
   padding-bottom: 5px;
   margin: 0;
@@ -53,6 +54,7 @@
 }
 
 .bestsellers__link {
+  max-width: 30%;
   margin-top: 4px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 10px;
