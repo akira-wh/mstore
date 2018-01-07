@@ -18,8 +18,8 @@
 
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 
   &::before {
     content: "";
@@ -74,8 +74,8 @@
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .shoes-banner__title-intro {

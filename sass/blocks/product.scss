@@ -6,8 +6,8 @@
   flex-basis: auto;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 
   &:hover .product__cover {
     transform: scale(1.030);
@@ -91,8 +91,8 @@
 
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .product__cover {
@@ -116,8 +116,8 @@
 
   display: none;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: nowrap;
 
   &:hover {
@@ -173,8 +173,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 

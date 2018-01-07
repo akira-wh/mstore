@@ -1,0 +1,128 @@
+.post {
+  width: 370px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.post__cover-set {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__cover {
+  display: block;
+  flex-basis: auto;
+}
+
+.post__info {
+  width: calc(100% - 6px);
+  padding-left: 6px;
+
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.post__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.050em;
+  color: #252525;
+  flex-basis: auto;
+}
+
+.post__details {
+  margin-bottom: 15px;
+
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.post__details-date {
+  width: 60px;
+  padding-left: 20px;
+  position: relative;
+  flex-basis: auto;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.050em;
+  color: #636363;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    top: 0;
+    left: 2px;
+    background-image: url("../img/icon-calendar.svg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+  }
+}
+
+.post__details-comments {
+  width: 255px;
+  padding-left: 20px;
+  position: relative;
+  flex-basis: auto;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.050em;
+  color: #636363;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    top: 2px;
+    left: 2px;
+    background-image: url("../img/icon-comments.svg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+  }
+}
+
+.post__text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 1.666;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  color: #898989;
+  flex-basis: auto;
+}
+
+.post__button {
+  flex-basis: auto;
+  align-self: flex-start;
+}
