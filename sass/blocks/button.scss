@@ -1,4 +1,4 @@
-.button {
+.main-button {
   position: relative;
   padding-right: 14px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
@@ -14,10 +14,11 @@
   &::after {
     content: "";
     position: absolute;
-    top: 2px;
+    top: 1px;
     right: -5px;
     border: 5px solid transparent;
     border-left: 5px solid #111111;
+    pointer-events: none;
   }
 
   &:hover,
@@ -36,5 +37,48 @@
 
   &:active::after {
     border-left-color: lighten(#111111, 20%);
+  }
+}
+
+.submit-button {
+  position: relative;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border: 0;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #00c8c8;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    border: 5px solid transparent;
+    border-left: 5px solid #ffffff;
+    pointer-events: none;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: darken(#00c8c8, 2%);
+  }
+
+  &:active {
+    background-color: darken(#00c8c8, 4%);
   }
 }

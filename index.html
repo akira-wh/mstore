@@ -136,10 +136,10 @@
                     <use class="main-nav__user-controls-icon-core" xlink:href="#icon-search"></use>
                   </svg>
                 </a>
-                <div class="main-nav__search-modal">
+                <div class="main-nav__search-modal  main-nav__search-modal--active">
                   <input class="main-nav__search-input" type="search" name="search" placeholder="what are you looking for?">
                   <button class="main-nav__search-submit-button" type="submit">Search</button>
-                  <button class="main-nav__search-close-button" type="button">Close</button>
+                  <button class="main-nav__search-close-button" type="reset">Close</button>
                 </div>
               </form>
             </li>
@@ -187,7 +187,7 @@
           <p class="intro__description">
             Order online and have your products delivered to your closest store for free...
           </p>
-          <a class="intro__button  button" href="#!">Shopping now</a>
+          <a class="intro__button  main-button" href="#!">Shopping now</a>
         </div>
         <picture class="intro__cover-set">
           <source type="image/webp" srcset="img/intro-cover.webp">
@@ -230,7 +230,7 @@
               coats, dresses, jackets, sweaters, skirts, tops and trousers.
               Whether you're searching for a special occasion...
             </p>
-            <a class="offers__button  button" href="#!">Shopping now</a>
+            <a class="offers__button  main-button" href="#!">Shopping now</a>
           </div>
           <picture class="offers__cover-set  offers__cover-set--boys-shirt">
             <source type="image/webp" srcset="img/offers-cover-01.webp">
@@ -248,7 +248,7 @@
               coats, dresses, jackets, sweaters, skirts, tops and trousers.
               Whether you're searching for a special occasion...
             </p>
-            <a class="offers__button  button" href="#!">Shopping now</a>
+            <a class="offers__button  main-button" href="#!">Shopping now</a>
           </div>
           <picture class="offers__cover-set  offers__cover-set--girls-shirt">
             <source type="image/webp" srcset="img/offers-cover-02.webp">
@@ -264,7 +264,7 @@
               collection, styled by fashion icon Caroline Issa and shot by
               esteemed photographer www.minsoi.con...
             </p>
-            <a class="offers__button  button" href="#!">Shopping now</a>
+            <a class="offers__button  main-button" href="#!">Shopping now</a>
           </div>
           <picture class="offers__cover-set  offers__cover-set--shoes">
             <source type="image/webp" srcset="img/offers-cover-03.webp">
@@ -612,7 +612,7 @@
             leather trim and structure silhouette. Its shiny gold-tone
             hardware and two-tone design give it extra fashionable flair.
           </p>
-          <a class="about-button  button" href="#!">Discover</a>
+          <a class="about-button  main-button" href="#!">Discover</a>
         </div>
         <picture class="about__cover-set">
           <source type="image/webp" srcset="img/about.webp">
@@ -778,7 +778,7 @@
                 Enim numquam, modi, esse quam odio iste nobis atque.
                 Soluta molestias perspiciatis accusamus ducimus, repellat.
               </p>
-              <a class="post__button  button" href="#!">Read More</a>
+              <a class="post__button  main-button" href="#!">Read More</a>
             </div>
           </article>
           <article class="blog__post  post">
@@ -797,7 +797,7 @@
                 Enim numquam, modi, esse quam odio iste nobis atque.
                 Soluta molestias perspiciatis accusamus ducimus, repellat.
               </p>
-              <a class="post__button  button" href="#!">Read More</a>
+              <a class="post__button  main-button" href="#!">Read More</a>
             </div>
           </article>
           <article class="blog__post  post">
@@ -816,11 +816,36 @@
                 Enim numquam, modi, esse quam odio iste nobis atque.
                 Soluta molestias perspiciatis accusamus ducimus, repellat.
               </p>
-              <a class="post__button  button" href="#!">Read More</a>
+              <a class="post__button  main-button" href="#!">Read More</a>
             </div>
           </article>
         </div>
       </section>
+
+      <section class="subscribe">
+        <div class="subscribe__wrapper">
+          <div class="subscribe__info">
+            <h2 class="subscribe__title">Join Our Email</h2>
+            <p class="subscribe__description">
+              We only send emails once a month and only about good things.
+            </p>
+          </div>
+          <form class="subscribe__form" action="#" method="post">
+            <input class="subscribe__input" type="email" name="email" placeholder="Your email...">
+            <button class="subscribe__submit-button  submit-button" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__contacts">
+          <h2 class="visually-hidden">Contact info</h2>
+        </div>
+        <nav class="page-footer__pages"></nav>
+        <div class="page-footer__map"></div>
+      </div>
+    </footer>
   </body>
 </html>
