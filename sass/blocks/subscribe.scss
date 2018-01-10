@@ -3,11 +3,12 @@
   background-repeat: no-repeat;
   background-size: auto auto;
   background-position: center 0px;
+  background-color: #3c3c3a;
 }
 
 .subscribe__wrapper {
   width: 1170px;
-  padding-top: 65px;
+  padding-top: 64px;
   padding-right: 15px;
   padding-bottom: 58px;
   padding-left: 15px;
@@ -74,11 +75,12 @@
   line-height: 1;
   font-weight: 300;
   letter-spacing: 0.050em;
-  color: #b7b7b7;
+  color: #111111;
   flex-basis: auto;
 
   &::placeholder {
     opacity: 1;
+    color: #b7b7b7;
   }
 
   &:focus::placeholder {
