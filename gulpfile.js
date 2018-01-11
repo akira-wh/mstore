@@ -88,6 +88,7 @@ gulp.task("svgmin", function() {
 // Минификация JavaScript
 gulp.task("jscompress", function() {
   return gulp.src("build/js/*.js")
+    .pipe(gulp.dest("build/js"))
     .pipe(uglify())
     .pipe(rename({
       suffix: ".min"
@@ -150,6 +151,7 @@ gulp.task("js:clean", function() {
 
 gulp.task("js:recompress", ["js:clean"], function() {
   return gulp.src("js/*.js")
+    .pipe(gulp.dest("build/js"))
     .pipe(uglify())
     .pipe(rename({
       suffix: ".min"

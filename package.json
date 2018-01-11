@@ -9,6 +9,8 @@
     "autoprefixer": "7.1.x",
     "browser-sync": "2.18.x",
     "del": "3.0.x",
+    "eslint": "4.15.x",
+    "eslint-config-htmlacademy": "0.3.x",
     "gulp": "3.9.x",
     "gulp-csso": "3.0.x",
     "gulp-imagemin": "3.4.x",
@@ -27,7 +29,7 @@
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint 'sass/**/*.scss' --syntax scss",
-    "test": "npm run editorconfig && npm run stylelint",
+    "test": "npm run editorconfig && npm run stylelint && eslint js/",
     "images": "gulp images",
     "webp": "gulp webp",
     "svgmin": "gulp svgmin",

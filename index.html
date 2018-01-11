@@ -82,13 +82,6 @@
                   <a class="additional-nav__languages-item-link" href="#!">RU</a>
                 </li>
               </ul>
-              <form class="additional-nav__languages-form  visually-hidden" action="#" method="post">
-                <select class="additional-nav__languages-select" name="language" id="language" tabindex="-1">
-                  <option value="ENG" selected>ENG</option>
-                  <option value="GER">GER</option>
-                  <option value="RU">RU</option>
-                </select>
-              </form>
             </li>
             <li class="additional-nav__settings-item">
               <span class="additional-nav__settings-item-label">Currency:</span>
@@ -106,13 +99,6 @@
                   <a class="additional-nav__currencies-item-link" href="#!">RUB</a>
                 </li>
               </ul>
-              <form class="additional-nav__currencies-form  visually-hidden" action="#" method="post">
-                <select class="additional-nav__currencies-select" name="currencies" id="currencies" tabindex="-1">
-                  <option value="USD" selected>USD</option>
-                  <option value="EUR">EUR</option>
-                  <option value="RUB">RUB</option>
-                </select>
-              </form>
             </li>
           </ul>
         </nav>
@@ -159,7 +145,7 @@
                   </svg>
                 </a>
                 <div class="main-nav__search-modal">
-                  <input class="main-nav__search-input" type="search" name="search" placeholder="what are you looking for?">
+                  <input class="main-nav__search-input" type="search" name="search" placeholder="what are you looking for?" required>
                   <button class="main-nav__search-submit-button" type="submit">Search</button>
                   <button class="main-nav__search-close-button" type="reset">Close</button>
                 </div>
@@ -193,7 +179,7 @@
             <li class="main-nav__user-controls-item">
               <a class="main-nav__user-controls-link  main-nav__user-controls-link--amount" href="#!">
                 <span class="visually-hidden">Amount on the account:</span>
-                $0.00
+                $1618.00
               </a>
             </li>
           </ul>
@@ -853,7 +839,7 @@
             </p>
           </div>
           <form class="subscribe__form" action="#" method="post">
-            <input class="subscribe__input" type="email" name="email" placeholder="Your email...">
+            <input class="subscribe__input" type="email" name="email" placeholder="Your email..." required>
             <button class="subscribe__submit-button  submit-button" type="submit">Submit</button>
           </form>
         </div>
