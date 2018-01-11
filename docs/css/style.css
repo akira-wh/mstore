@@ -1078,6 +1078,8 @@ input[type="radio"].visually-hidden {
   padding-left: 8px;
   margin: 0;
   border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Roboto", "Arial", "Verdana", sans-serif;
@@ -3002,6 +3004,8 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 8px;
   border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
   font-family: "Roboto", "Arial", "Verdana", sans-serif;
   font-size: 12px;
   line-height: 1;
