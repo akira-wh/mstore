@@ -17,9 +17,9 @@
 .offers__item {
   width: 255px;
   min-height: 300px;
-  padding-top: 70px;
+  padding-top: 69px;
   padding-right: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 31px;
   padding-left: 300px;
   margin-bottom: 30px;
   position: relative;
@@ -69,7 +69,7 @@
   &--fullwidth {
     padding-top: 30px;
     padding-right: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 31px;
     padding-left: 38px;
     border: 6px solid #00c8c8;
     border-image: linear-gradient(to right, #00c8c8 549px, #ffffff 549px) 1 1 stretch;
@@ -81,7 +81,7 @@
 .offers__type {
   padding: 0;
   margin: 0;
-  margin-bottom: -7px;
+  margin-bottom: -9px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.2;
@@ -90,7 +90,7 @@
   text-transform: uppercase;
 
   &--fullwidth {
-    margin-bottom: -5px;
+    margin-bottom: -6px;
   }
 
   &--color-red {
@@ -114,7 +114,7 @@
 .offers__title {
   padding: 0;
   margin: 0;
-  margin-bottom: 9px;
+  margin-bottom: 7px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 30px;
   line-height: 1.2;
@@ -137,7 +137,7 @@
 .offers__price {
   padding: 0;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 30px;
   line-height: 1.2;
@@ -159,10 +159,10 @@
   width: 210px;
   padding: 0;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 33px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.222;
   font-weight: 300;
   letter-spacing: 0.075em;
   color: #636363;

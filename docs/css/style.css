@@ -619,7 +619,7 @@ input[type="radio"].visually-hidden {
   width: 1170px;
   padding-top: 25px;
   padding-right: 15px;
-  padding-bottom: 8px;
+  padding-bottom: 9px;
   padding-left: 15px;
   margin: 0 auto;
   display: -webkit-box;
@@ -667,7 +667,7 @@ input[type="radio"].visually-hidden {
 .additional-nav__contacts-item {
   position: relative;
   padding-right: 10px;
-  margin-right: 13px;
+  margin-right: 14px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 10px;
   line-height: 1.2;
@@ -738,7 +738,7 @@ input[type="radio"].visually-hidden {
   min-width: 90px;
   position: relative;
   padding-right: 10px;
-  margin-right: 12px;
+  margin-right: 14px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 10px;
   line-height: 1.2;
@@ -1193,7 +1193,7 @@ input[type="radio"].visually-hidden {
 
 .intro__info {
   width: 500px;
-  padding-top: 134px;
+  padding-top: 133px;
   padding-right: 585px;
   padding-bottom: 60px;
   padding-left: 115px;
@@ -1218,7 +1218,7 @@ input[type="radio"].visually-hidden {
 .intro__title {
   padding: 0;
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.666;
@@ -1233,7 +1233,7 @@ input[type="radio"].visually-hidden {
 .intro__subtitle {
   padding: 0;
   margin: 0;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 72px;
   line-height: 1;
@@ -1247,7 +1247,7 @@ input[type="radio"].visually-hidden {
 .intro__description {
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.2;
@@ -1412,7 +1412,7 @@ input[type="radio"].visually-hidden {
 .features__item {
   width: 200px;
   padding-top: 26px;
-  padding-bottom: 28px;
+  padding-bottom: 30px;
   padding-left: 70px;
   position: relative;
   -ms-flex-preferred-size: auto;
@@ -1461,6 +1461,7 @@ input[type="radio"].visually-hidden {
 .features__item-title {
   padding: 0;
   margin: 0;
+  margin-bottom: -2px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.714;
@@ -1509,9 +1510,9 @@ input[type="radio"].visually-hidden {
 .offers__item {
   width: 255px;
   min-height: 300px;
-  padding-top: 70px;
+  padding-top: 69px;
   padding-right: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 31px;
   padding-left: 300px;
   margin-bottom: 30px;
   position: relative;
@@ -1583,7 +1584,7 @@ input[type="radio"].visually-hidden {
 .offers__info--fullwidth {
   padding-top: 30px;
   padding-right: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 31px;
   padding-left: 38px;
   border: 6px solid #00c8c8;
   -o-border-image: linear-gradient(to right, #00c8c8 549px, #ffffff 549px) 1 1 stretch;
@@ -1596,7 +1597,7 @@ input[type="radio"].visually-hidden {
 .offers__type {
   padding: 0;
   margin: 0;
-  margin-bottom: -7px;
+  margin-bottom: -9px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.2;
@@ -1606,7 +1607,7 @@ input[type="radio"].visually-hidden {
 }
 
 .offers__type--fullwidth {
-  margin-bottom: -5px;
+  margin-bottom: -6px;
 }
 
 .offers__type--color-red {
@@ -1629,7 +1630,7 @@ input[type="radio"].visually-hidden {
 .offers__title {
   padding: 0;
   margin: 0;
-  margin-bottom: 9px;
+  margin-bottom: 7px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 30px;
   line-height: 1.2;
@@ -1652,7 +1653,7 @@ input[type="radio"].visually-hidden {
 .offers__price {
   padding: 0;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 30px;
   line-height: 1.2;
@@ -1674,10 +1675,10 @@ input[type="radio"].visually-hidden {
   width: 210px;
   padding: 0;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 33px;
   font-family: "Open Sans", "Verdana", "Arial", sans-serif;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.222;
   font-weight: 300;
   letter-spacing: 0.075em;
   color: #636363;
@@ -1756,7 +1757,7 @@ input[type="radio"].visually-hidden {
 }
 
 .featured-products__header {
-  padding-top: 25px;
+  padding-top: 24px;
   padding-bottom: 31px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2387,7 +2388,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
   padding: 0;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 44px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 12px;
   line-height: 3;
@@ -2434,6 +2435,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 0;
   padding-left: 15px;
   margin: 0 auto;
+  margin-bottom: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2666,13 +2668,13 @@ input[type="radio"].visually-hidden {
   padding-bottom: 0;
   padding-left: 15px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 57px;
 }
 
 .blog__header {
   width: 100%;
   padding-top: 25px;
-  padding-bottom: 31px;
+  padding-bottom: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2760,7 +2762,7 @@ input[type="radio"].visually-hidden {
 
 .post__cover-set {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   overflow: hidden;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
@@ -2808,7 +2810,7 @@ input[type="radio"].visually-hidden {
 .post__title {
   padding: 0;
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2;
@@ -2895,7 +2897,7 @@ input[type="radio"].visually-hidden {
 .post__text {
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 12px;
   line-height: 1.666;
@@ -2954,7 +2956,8 @@ input[type="radio"].visually-hidden {
 .subscribe__title {
   padding: 0;
   margin: 0;
-  margin-bottom: 12px;
+  margin-top: 4px;
+  margin-bottom: 10px;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 24px;
   line-height: 1.2;
@@ -3000,12 +3003,12 @@ input[type="radio"].visually-hidden {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 11px;
+  padding-top: 12px;
   padding-right: 20px;
-  padding-bottom: 11px;
+  padding-bottom: 12px;
   padding-left: 20px;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   border: 0;
   font-family: "Roboto", "Verdana", "Arial", sans-serif;
   font-size: 12px;
@@ -3104,9 +3107,9 @@ input[type="radio"].visually-hidden {
 .page-footer__contacts {
   width: 305px;
   padding-top: 50px;
-  padding-right: 30px;
+  padding-right: 34px;
   padding-bottom: 35px;
-  padding-left: 35px;
+  padding-left: 34px;
   background-color: #31353d;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
@@ -3129,7 +3132,7 @@ input[type="radio"].visually-hidden {
   display: block;
   width: 92px;
   height: 25px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   cursor: pointer;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
@@ -3173,7 +3176,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
   padding: 0;
   margin: 0;
-  margin-bottom: 58px;
+  margin-bottom: 57px;
   list-style: none;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
