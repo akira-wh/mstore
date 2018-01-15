@@ -1543,13 +1543,13 @@ input[type="radio"].visually-hidden {
           align-items: flex-end;
 }
 
-.offers__info--align-left {
+.offers__item--align-left .offers__info {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.offers__info--fullwidth {
+.offers__item--fullwidth .offers__info {
   width: 575px;
   padding-top: 30px;
   padding-right: 25px;
@@ -1576,7 +1576,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.offers__type--fullwidth {
+.offers__item--fullwidth .offers__type {
   margin-bottom: -6px;
 }
 
@@ -1656,12 +1656,12 @@ input[type="radio"].visually-hidden {
   color: #636363;
 }
 
-.offers__description--fullwidth {
+.offers__item--fullwidth .offers__description {
   width: 100%;
   margin-bottom: 32px;
 }
 
-.offers__description--align-right {
+.offers__item--align-right .offers__description {
   text-align: right;
 }
 

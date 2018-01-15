@@ -61,11 +61,11 @@
   justify-content: flex-start;
   align-items: flex-end;
 
-  &--align-left {
+  .offers__item--align-left & {
     align-items: flex-start;
   }
 
-  &--fullwidth {
+  .offers__item--fullwidth & {
     width: 575px;
     padding-top: 30px;
     padding-right: 25px;
@@ -90,7 +90,7 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
-  &--fullwidth {
+  .offers__item--fullwidth & {
     margin-bottom: -6px;
   }
 
@@ -170,12 +170,12 @@
   letter-spacing: 0.075em;
   color: #636363;
 
-  &--fullwidth {
+  .offers__item--fullwidth & {
     width: 100%;
     margin-bottom: 32px;
   }
 
-  &--align-right {
+  .offers__item--align-right & {
     text-align: right;
   }
 
