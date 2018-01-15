@@ -16,7 +16,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
 }
 
 .featured-products__title {
@@ -30,7 +29,6 @@
   font-weight: 500;
   letter-spacing: 0;
   color: #252525;
-  flex-basis: auto;
 
   &::after {
     content: "";
@@ -53,8 +51,8 @@
   letter-spacing: 0.050em;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: right;
   color: #636363;
-  flex-basis: auto;
 
   &:hover,
   &:focus {

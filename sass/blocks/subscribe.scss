@@ -18,12 +18,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
 }
 
 .subscribe__info {
   width: 400px;
-  flex-basis: auto;
 }
 
 .subscribe__title {
@@ -52,7 +50,6 @@
 
 .subscribe__form {
   width: 670px;
-  flex-basis: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -78,7 +75,6 @@
   font-weight: 300;
   letter-spacing: 0.050em;
   color: #111111;
-  flex-basis: auto;
 
   &::placeholder {
     opacity: 1;

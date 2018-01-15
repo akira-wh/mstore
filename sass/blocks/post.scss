@@ -12,7 +12,6 @@
   margin-bottom: 19px;
   overflow: hidden;
 
-  flex-basis: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,14 +20,12 @@
 
 .post__cover {
   display: block;
-  flex-basis: auto;
 }
 
 .post__info {
   width: calc(100% - 6px);
   padding-left: 6px;
 
-  flex-basis: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,25 +42,21 @@
   font-weight: 300;
   letter-spacing: 0.050em;
   color: #252525;
-  flex-basis: auto;
 }
 
 .post__details {
   margin-bottom: 15px;
 
-  flex-basis: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
 }
 
 .post__details-date {
   width: 60px;
   padding-left: 20px;
   position: relative;
-  flex-basis: auto;
   font-family: "Roboto", "Arial", "Verdana", sans-serif;
   font-size: 10px;
   line-height: 1.2;
@@ -88,7 +81,6 @@
   width: 255px;
   padding-left: 20px;
   position: relative;
-  flex-basis: auto;
   font-family: "Roboto", "Arial", "Verdana", sans-serif;
   font-size: 10px;
   line-height: 1.2;
@@ -119,10 +111,8 @@
   font-weight: 300;
   letter-spacing: 0.075em;
   color: #898989;
-  flex-basis: auto;
 }
 
 .post__button {
-  flex-basis: auto;
   align-self: flex-start;
 }

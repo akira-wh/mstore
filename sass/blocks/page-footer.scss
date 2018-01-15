@@ -14,7 +14,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
 }
 
 .page-footer__contacts {
@@ -25,7 +24,6 @@
   padding-left: 34px;
   background-color: #31353d;
 
-  flex-basis: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -38,7 +36,6 @@
   height: 25px;
   margin-bottom: 25px;
   cursor: pointer;
-  flex-basis: auto;
 }
 
 .page-footer__logo-icon {
@@ -71,7 +68,6 @@
   font-weight: 300;
   letter-spacing: 0.075em;
   color: #868686;
-  flex-basis: auto;
 }
 
 .page-footer__contacts-list {
@@ -80,7 +76,6 @@
   margin: 0;
   margin-bottom: 57px;
   list-style: none;
-  flex-basis: auto;
 }
 
 .page-footer__contacts-item {
@@ -95,7 +90,6 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: nowrap;
 }
 
 .page-footer__contacts-item-label {
@@ -105,17 +99,16 @@
   letter-spacing: 0.075em;
   color: #868686;
 
-  flex-basis: auto;
   flex-shrink: 0;
 }
 
 .page-footer__contacts-item-description,
 .page-footer__contacts-item-link {
+  max-width: 181px;
   font: inherit;
   letter-spacing: 0.075em;
   color: #e1e1e1;
   text-decoration: none;
-  flex-basis: auto;
 }
 
 .page-footer__contacts-item-link:hover,
@@ -127,14 +120,9 @@
   color: lighten(#e1e1e1, 10%);
 }
 
-.page-footer__contacts-social {
-  flex-basis: auto;
-}
-
 .page-footer__pages {
   width: 340px;
   padding-top: 60px;
-  flex-basis: auto;
 }
 
 .page-footer__pages-title {
@@ -171,7 +159,6 @@
   font-weight: 300;
   letter-spacing: 0.075em;
   color: #cccccc;
-  flex-basis: auto;
 }
 
 .page-footer__pages-item-link {
@@ -198,7 +185,6 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center 95px;
-  flex-basis: auto auto;
 }
 
 .page-footer__map-container {

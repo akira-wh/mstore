@@ -17,7 +17,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
 }
 
 .blog__title {
@@ -31,7 +30,6 @@
   font-weight: 500;
   letter-spacing: 0;
   color: #252525;
-  flex-basis: auto;
 
   &::after {
     content: "";
@@ -52,8 +50,4 @@
   align-items: stretch;
   align-content: stretch;
   flex-wrap: wrap;
-}
-
-.blog__post {
-  flex-basis: auto;
 }

@@ -51,6 +51,7 @@
 }
 
 .sale-banner__pseudo-link {
+  max-width: 185px;
   padding: 0;
   margin: 0;
   position: absolute;
@@ -91,5 +92,4 @@
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  flex-basis: auto;
 }

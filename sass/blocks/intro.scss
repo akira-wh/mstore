@@ -33,7 +33,6 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #31415c;
-  flex-basis: auto;
 }
 
 .intro__subtitle {
@@ -46,7 +45,6 @@
   font-weight: 800;
   letter-spacing: -0.05em;
   color: #31415c;
-  flex-basis: auto;
 }
 
 .intro__description {
@@ -60,7 +58,6 @@
   font-style: italic;
   letter-spacing: 0;
   color: #252525;
-  flex-basis: auto;
 }
 
 .intro__button {
@@ -72,8 +69,8 @@
   max-width: 1920px;
   height: 630px;
   position: absolute;
+  top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
   overflow: hidden;
   z-index: 0;
@@ -82,7 +79,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
 }
 
 .intro__cover {

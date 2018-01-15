@@ -1,5 +1,4 @@
 .page-header__top-row-wrapper {
-  width: 100%;
   background-color: #31353d;
 }
 
@@ -15,15 +14,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
 }
 
 .page-header__logo-link {
-  display: block;
   width: 92px;
   height: 25px;
   cursor: pointer;
-  flex-basis: auto;
 }
 
 .page-header__logo-icon {
@@ -41,8 +37,4 @@
   .page-header__logo-link:active & {
     fill: lighten(#31353d, 10%);
   }
-}
-
-.page-header__main-nav {
-  flex-basis: auto;
 }

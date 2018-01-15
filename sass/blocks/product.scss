@@ -3,7 +3,6 @@
   margin-bottom: 35px;
   position: relative;
 
-  flex-basis: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -18,7 +17,6 @@
   display: block;
   margin-bottom: 18px;
   position: relative;
-  flex-basis: auto;
 
   &:hover .product__cover,
   &:focus .product__cover {
@@ -100,7 +98,6 @@
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  flex-basis: auto;
 }
 
 .product__popup {
@@ -118,7 +115,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
 
   &:hover {
     display: flex;
@@ -128,7 +124,6 @@
 .product__popup-link {
   display: block;
   margin-right: 30px;
-  flex-basis: auto;
 
   &:last-of-type {
     margin-right: 0;
@@ -189,7 +184,6 @@
   font-weight: 300;
   letter-spacing: 0.050em;
   color: #555555;
-  flex-basis: auto;
 }
 
 .product__info-link {
@@ -209,7 +203,6 @@
   font-weight: 500;
   letter-spacing: 0.050em;
   color: #252525;
-  flex-basis: auto;
 }
 
 .product__info-old-price {
@@ -231,7 +224,6 @@
   background-image: url("../img/icon-stars-bg.svg");
   background-repeat: no-repeat;
   background-size: auto;
-  flex-basis: auto;
 }
 
 .product__info-rating {
